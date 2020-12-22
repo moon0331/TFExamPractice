@@ -29,4 +29,4 @@ def train_mnist():
                         epochs=10,
                         callbacks=[callbacks])
 
-    return history.epoch, history.history['acc'][-1]
+    return history.epoch, history.history['accuracy'][-1]
